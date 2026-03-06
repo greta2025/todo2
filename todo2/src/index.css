@@ -73,3 +73,11 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+.color-primary{
+  color:#213547;
+}
+
+.color-grey{
+  color:grey;
+}

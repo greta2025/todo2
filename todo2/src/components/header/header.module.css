@@ -1,0 +1,14 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #b9e3ee;
+    margin-bottom: 20px;
+}
+
+.titleContainer{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}   
