@@ -1,0 +1,19 @@
+.title{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.emptyState{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.2rem;
+    color: rgb(66, 70, 150);
+}   
