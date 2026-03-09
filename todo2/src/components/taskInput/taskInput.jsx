@@ -9,8 +9,10 @@ export const TaskInput = ({ addTask }) => {
   }
   const handleAddTask = (e) => {
     e.preventDefault();
+    if (taskTitle.trim()) {
     addTask(taskTitle);
     setTastTitle('');
+    }
   }
 
 
@@ -22,7 +24,8 @@ export const TaskInput = ({ addTask }) => {
             className={styles.input} 
             type="text" 
             placeholder="Ajouter une tâche" 
-            onChange={handleInputChange} 
+            onChange={handleInputChange}
+            value={taskTitle} 
             /> 
           <button 
             className="button-primary"
