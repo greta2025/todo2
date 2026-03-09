@@ -81,3 +81,10 @@ button:focus-visible {
 .color-grey{
   color:grey;
 }
+
+html, body {
+    height: 100%;       /* Assure que body prend toute la hauteur */
+    margin: 0;          /* Supprime les marges par défaut */
+    padding: 0;         /* Supprime le padding par défaut */
+    background-color: #f0f0f0;  /* Couleur de fond */
+}

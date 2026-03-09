@@ -10,7 +10,7 @@ export const TaskContainer = () => {
 
     const addTask = (title) => {
         const newTask = {
-            id: taskslist.length + 1,
+            id: taskslist.length ? taskslist[taskslist.length - 1].id + 1 : 1,  
             title: title,
             completed: false
         };
@@ -48,7 +48,7 @@ export const TaskContainer = () => {
         deleteTask={deleteTask}
         incompleteTasks={incompleteTasks} 
         />
-        <Footer />
+        <Footer completedTasks={completedTasks} />
         </main>
     )
 }
