@@ -5,7 +5,7 @@
     gap: 10px;
     border-radius: 8px;
     border: 1px solid;
-    padding: 24px;
+    padding: 0px;
     cursor: pointer;
 }
 
@@ -21,7 +21,7 @@
 }
 
 .default:hover{
-    background-color: #2c1980;
+    background-color: grey;
     color: white;
 }
 
